@@ -1,15 +1,17 @@
-basiccoin
+mycoin
+
+derived from basiccoin
 
 The simplest currency.
 
-Donations: 1GbpRPE83Vjg73KFvTVZ4EnS2qNkiLY5TT
+Donations(Doge): DSumoPG4CGfzbaySfJPzmSHAtWG8WA2xcM
 
 INSTALL (for ubuntu)
 
     sudo apt-get install git
     sudo apt-get install python-leveldb
-    git clone https://github.com/zack-bitcoin/basiccoin.git
-    cd basiccoin/
+    git clone https://github.com/jperoutek/mycoin.git
+    cd mycoin/
 
 To run 1 node
 
