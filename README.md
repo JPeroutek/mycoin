@@ -1,4 +1,4 @@
-mycoin
+# mycoin
 
 derived from basiccoin
 
@@ -13,9 +13,20 @@ INSTALL (for ubuntu)
     git clone https://github.com/jperoutek/mycoin.git
     cd mycoin/
 
+INSTALL (OSX)
+
+    git clone https://github.com/jperoutek/mycoin.git
+    cd mycoin/
+
+
+
 To run 1 node
 
     python workers.py
+
+To test a mini network
+
+    bash go.sh
 
 ###Why do we need a simple currency
 
@@ -63,3 +74,7 @@ http://paulgraham.com/power.html
 *   can create unique addresses
 *   can spend the currency units to each other
 *   Multisig escrow
+
+### News
+
+As of this commit, the coin I derived this from, BasicCoin, seems to have drastically changed its structure.  I like this version more, so I am going to keep it this way.
